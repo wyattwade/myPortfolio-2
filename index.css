@@ -30,7 +30,7 @@ body {
 .myImgSection {
   width: 42%;
   height: 100%;
-  background-image: url(42069060_488307898313130_696445133495109991_n.jpg);
+  background-image: url(42069060_488307898313130_696445133495109991_n.jpg) ;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -304,7 +304,7 @@ canvas {
 
 
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 500px) {
   .titleSection {
     width: 100%;
     position: absolute;
