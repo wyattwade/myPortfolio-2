@@ -1,0 +1,62 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      .space {
+        height: 100vw;
+        width: 100vw;
+        background: black;
+      }
+
+      .pluto {
+        height: 100px;
+        width: 100px;
+        padding: 100px;
+        background: purple;
+        margin: auto;
+        position: relative;
+        top: 200px;
+        color: white;
+        font-size: 25px;
+        text-align: center;
+        vertical-align: middle;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="space">
+      <div class="pluto"></div>
+    </div>
+  </body>
+
+  <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"
+  ></script>
+
+  <script type="text/javascript">
+    i = 0;
+    var colorList = ["green", "blue", "purple", "orange", "red"];
+    var textList = ["Clay", "is an", "awesome", "coder", "now"];
+
+    function timeout() {
+        setTimeout(function() {
+            $(".pluto").css("background", colorList[i])
+            $(".pluto").text(textList[i])
+
+            if (i == colorList.length - 1){
+                i = 0;
+            }else{
+                i++;
+            }
+          timeout();
+        }, 1000);
+      }
+      timeout();
+
+  </script>
+</html>

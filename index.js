@@ -7,12 +7,6 @@ textWrapper.innerHTML = textWrapper.textContent.replace(
 
 
 
-
-
-
-
-
-
 particlesJS("particles-js",{
     "particles": {
       "number": {
@@ -201,3 +195,26 @@ setTimeout(function() {
     })
   
   
+
+
+$(".connectButton").click(() => {
+  $(".splash-title").fadeOut()
+  $(".splash-title-2").fadeOut()
+  $(".connectButton").fadeOut()
+
+  
+  setTimeout(() =>{
+    $(".splash-title-3").fadeIn()
+    $(".contactButtonContainer").fadeIn()
+    $(".contactButtonContainer").css("display", "flex")
+
+  }, 500)
+
+
+
+})
+
+
+
+
+
