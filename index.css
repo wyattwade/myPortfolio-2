@@ -30,8 +30,8 @@ body {
 .myImgSection {
   width: 42%;
   height: 100%;
-  /* background-image: url(42069060_488307898313130_696445133495109991_n.jpg) ; */
-  background-image: url(IMG_0212.JPG);
+  background-image: url(42069060_488307898313130_696445133495109991_n.jpg) ;
+  /* background-image: url(IMG_0212.JPG); */
 
   background-size: cover;
   background-repeat: no-repeat;
@@ -112,7 +112,7 @@ body {
 .splash-title-container{
     
     position: absolute;
-    top: 34%;
+    top: 65%;
     height: 6em;
     margin-top: -3em;
     width: 100vw;
@@ -152,7 +152,7 @@ canvas {
 #particles-js {
   position: fixed;
   width: 100%;
-  height: 120vh;
+  height: 200vh;
   background-color: #00000011;
   background-image: url("");
   background-repeat: no-repeat;
@@ -204,7 +204,7 @@ canvas {
     rgb(255, 186, 230)
 
       );
-  height: 120vh;
+  height: 200vh;
   width: 100%;
     position: relative;
 }
@@ -348,8 +348,8 @@ float: left;
 
 @media only screen and (max-width: 1200px) {
   .myImgSection {
-    /* background-image: url(42069060_488307898313130_696445133495109991_n_copy.jpg); */
-    background-image: url(IMG_0212.JPG);
+    background-image: url(42069060_488307898313130_696445133495109991_n_copy.jpg);
+    /* background-image: url(IMG_0212.JPG); */
   }
 }
 
@@ -367,8 +367,8 @@ float: left;
   .myImgSection {
     width: 100%;
     position: absolute;
-    /* background-image: url(42069060_488307898313130_696445133495109991_n_copy.jpg); */
-    background-image: url(IMG_0212.JPG);
+    background-image: url(42069060_488307898313130_696445133495109991_n_copy.jpg);
+    /* background-image: url(IMG_0212.JPG); */
     z-index: 0;
   }
 
@@ -387,4 +387,131 @@ width: 141px;
   }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.projectSection{
+  display: flex;
+  margin-top: 15vh;
+  flex-wrap: wrap;
+  justify-content: space-evenly
+}
+
+
+.project {
+  background-color: #36afff;
+  text-align: center;
+  font-size: 24px;
+  visibility: hidden;
+  position: relative;
+  /* margin-left: 2px; */
+  /* margin-right: 2px; */
+  z-index: 10000000;
+
+  background-size: cover;
+  background-position: center;
+
+
+  display: inline-block;
+  height: 0;
+  padding-bottom: 33.33%;
+  width: 33.33%;
+
+
+  transition: filter .5s;
+
+}
+
+.project:hover{ 
+  webkit-filter: blur(3.2px); /* Chrome, Safari, Opera */
+  filter: blur(3.2px);
+}
+
+.projectText{
+  webkit-filter: blur(0px); /* Chrome, Safari, Opera */
+
+  filter: blur(0px)
+}
+
+
+.project1{
+  background:url("https://pbs.twimg.com/profile_images/1102715404688871424/KVqLdBKx_400x400.png");
+  background-size: cover;
+  background-position: center;
+
+
+}
+
+.project2{
+  background:url("JE_Icon_1.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.project3{
+  background:url("pacificsurftrade.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.project4{
+  background:url("charliee.png");
+  background-size: cover;
+  background-position: center;
+}
+ 
+
+.project5{
+  background:url("https://www.guidestar.org/ViewEdoc.aspx?eDocId=5323319&approved=True");
+  background-size: cover;
+  background-position: center;
+}
+
+.project6{
+  background:url("https://s3-us-west-1.amazonaws.com/companies.comparably.com/102640/102640_logo_chrome-river-technologies.png?lastUpdate=Fri%20Jul%2026%202019%2017%3A42%3A31%20GMT+0000%20%28UTC%29");
+  background-size: cover;
+  background-position: center;
+}
 

@@ -218,3 +218,41 @@ $(".connectButton").click(() => {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(window).scroll(function () {
+  var topDivHeight = $(".landingSection").height();
+  var viewPortSize = $(window).height();
+  
+  var triggerAt = 180;
+  var triggerHeight = (topDivHeight - viewPortSize) + triggerAt;
+
+  if ($(window).scrollTop() >= triggerHeight) {
+    console.log("trigger")
+      $('.project1').css('visibility', 'visible').hide().fadeIn(400);
+      $('.project2').css('visibility', 'visible').hide().fadeIn(800);
+      $('.project3').css('visibility', 'visible').hide().fadeIn(1200);
+      $('.project4').css('visibility', 'visible').hide().fadeIn(1600);
+      $('.project5').css('visibility', 'visible').hide().fadeIn(2000);
+      $('.project6').css('visibility', 'visible').hide().fadeIn(2400);
+
+      $(this).off('scroll');
+  }
+});
