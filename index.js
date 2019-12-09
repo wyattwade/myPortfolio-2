@@ -119,32 +119,38 @@ particlesJS("particles-js",{
   });
   
   
+
+
+
+
+
   
   
+  
 
 
 
 
-anime
-  .timeline({ loop: false })
-  .add({
-    targets: ".ml1 .letter",
-    scale: [0.3, 1],
-    opacity: [0, 1],
-    translateZ: 0,
-    easing: "easeOutExpo",
-    duration: 1000,
-    delay: (el, i) => 40 * (i + 1)
-  })
-  .add({
-    targets: ".ml1 .line",
-    scaleX: [0, 1],
-    opacity: [0.5, 1],
-    easing: "easeOutExpo",
-    duration: 1000,
-    offset: "-=875",
-    delay: (el, i, l) => 40 * (l - i)
-  });
+// anime
+//   .timeline({ loop: false })
+//   .add({
+//     targets: ".ml1 .letter",
+//     scale: [0.3, 1],
+//     opacity: [0, 1],
+//     translateZ: 0,
+//     easing: "easeOutExpo",
+//     duration: 800,
+//     delay: (el, i) => 40 * (i + 1)
+//   })
+  // .add({
+  //   targets: ".ml1 .line",
+  //   scaleX: [0, 1],
+  //   opacity: [0.5, 1],
+  //   easing: "easeOutExpo",
+  //   duration: 1000,
+  //   offset: "-=875",
+  //   delay: (el, i, l) => 40 * (l - i)
+  // }); 
 
   setTimeout(function() {
     $(".myImgSection").fadeIn(400);
@@ -182,16 +188,16 @@ setTimeout(function() {
       opacity: [0,1],
       translateZ: 0,
       easing: "easeOutExpo",
-      duration: 600,
-      delay: (el, i) => 70 * (i+1)
+      duration: 800,
+      delay: (el, i) => 40 * (i+1)
     }).add({
       targets: '.ml1 .line',
       scaleX: [0,1],
       opacity: [0.5,1],
       easing: "easeOutExpo",
-      duration: 1500,
+      duration: 500,
       offset: '-=875',
-      delay: (el, i, l) => 80 * (l - i)
+      delay: (el, i, l) => 120 * (l - i)
     })
   
   
@@ -209,10 +215,28 @@ $(".connectButton").click(() => {
     $(".contactButtonContainer").css("display", "flex")
 
   }, 500)
-
-
-
 })
+
+
+
+
+$(".connectButton2").click(() => {
+  $(".splash-title2").fadeOut()
+  $(".splash-title-2-2").fadeOut()
+  $(".connectButton2").fadeOut()
+  $(".contactTitle").fadeOut()
+
+  
+  setTimeout(() =>{
+    $(".splash-title-3-2").fadeIn()
+    $(".contactButtonContainer2").fadeIn()
+    $(".contactButtonContainer2").css("display", "flex")
+
+  }, 500)
+})
+
+
+
 
 
 
