@@ -585,15 +585,21 @@ canvas {
     text-align: left;
     background: black;
     padding: 11px;
-    margin-top: 145px;
   }
 
 
 
 .splash-title-3-2{
-  margin-top: 180px;
+  position: absolute;
+  bottom: 180px;
 }
 
+.contactButtonContainer2{
+  position: absolute;
+  bottom: 75px;
+  width: 80%;
+  margin-left: 15%;
+}
 
 .project{
   width: 50%;
