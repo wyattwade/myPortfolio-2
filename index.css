@@ -30,7 +30,7 @@ body {
 .myImgSection {
   width: 42%;
   height: 100%;
-  background-image: url(42069060_488307898313130_696445133495109991_n.jpg) ;
+  background-image: url(42069060_488307898313130_696445133495109991_n.jpg);
   /* background-image: url(IMG_0212.JPG); */
 
   background-size: cover;
@@ -41,7 +41,6 @@ body {
   display: none;
   min-height: 500px;
 }
-
 
 .ml1 {
   font-weight: 900;
@@ -102,9 +101,7 @@ body {
   text-align: center;
 }
 
-
-
-.projectSectionTitle{
+.projectSectionTitle {
   color: white;
   text-align: center;
   position: relative;
@@ -113,7 +110,7 @@ body {
   font-size: 4vw;
 }
 
-.contactSectionTitle{
+.contactSectionTitle {
   color: white;
   text-align: center;
   position: relative;
@@ -122,39 +119,35 @@ body {
   font-size: 4vw;
 }
 
-
-
-
-.splash-title-container{
-    
-    position: absolute;
-    top: 32%;
-    height: 6em;
-    margin-top: -3em;
-    width: 100vw;
-    z-index: 1000000;
-    
+.splash-title-container {
+  position: absolute;
+  top: 32%;
+  height: 6em;
+  margin-top: -3em;
+  width: 100vw;
+  z-index: 1000000;
 }
 
 .splash-title {
-    color: white;
-    font-size: 32px;
-    width: 100%;
-    text-align: center;
-    font-weight: 200;
-    
-  }
+  color: white;
+  font-size: 32px;
+  width: 100%;
+  text-align: center;
+  font-weight: 200;
+}
 
-  .splash-title-2, .splash-title-2-2{
-    margin-top: 20px;
-    color: white;
-    font-size: 18px;
-    width: 100%;
-    text-align: center;
-    font-weight: 200;
-
-  }
-
+.splash-title-2,
+.splash-title-2-2 {
+  margin-top: 20px;
+  color: white;
+  font-size: 18px;
+  width: 100%;
+  text-align: center;
+  font-weight: 200;
+}
+.splash-title-3-2 {
+  margin-bottom: 28px;
+}
 
 body {
   margin: 0;
@@ -164,8 +157,6 @@ canvas {
   display: block;
   vertical-align: bottom;
 } /* ---- particles.js container ---- */
-
-
 
 #particles-js {
   width: 100%;
@@ -177,8 +168,6 @@ canvas {
   background-position: 50% 50%;
   position: absolute;
   z-index: 5000;
-
-
 } /* ---- stats.js ---- */
 .count-particles {
   background: #00002200;
@@ -221,15 +210,16 @@ canvas {
     #0f5bff,
     rgb(153, 214, 255),
     rgb(255, 186, 230)
-
-      );
-  height:100vh;
+  );
+  height: 100vh;
   width: 100%;
-    position: relative;
+  position: relative;
 }
 .myImg {
   width: 100vw;
-  height: 200px;
+  max-height: 66%;
+  min-height: 15%;
+  /* height: 200px; */
   z-index: 20000;
   position: absolute;
   bottom: -1;
@@ -281,11 +271,8 @@ canvas {
   left: 20px;
 }
 
-
-
-
-
-.connectButton, .connectButton2{
+.connectButton,
+.connectButton2 {
   height: 50px;
   width: 250px;
   margin: auto;
@@ -293,14 +280,16 @@ canvas {
   position: relative;
   z-index: 10000001;
   border-radius: 30px;
-  margin-top:42px;
+  margin-top: 42px;
 }
 
-.connectButton:hover, .connectButton2:hover{
+.connectButton:hover,
+.connectButton2:hover {
   background: rgb(255, 188, 63);
 }
 
-.connectButtonText, .connectButtonText2{
+.connectButtonText,
+.connectButtonText2 {
   color: white;
   position: relative;
   top: 12px;
@@ -309,18 +298,19 @@ canvas {
   font-size: 23px;
 }
 
-
-.splash-title-3, .splash-title-3-2{
+.splash-title-3,
+.splash-title-3-2 {
   color: white;
   font-size: 32px;
   width: 100%;
   text-align: center;
   font-weight: 200;
-display:none;
-float: left;
+  display: none;
+  float: left;
 }
 
-.contactButtonContainer, .contactButtonContainer2{
+.contactButtonContainer,
+.contactButtonContainer2 {
   margin: auto;
   display: none;
   margin-top: 100px;
@@ -328,17 +318,18 @@ float: left;
   justify-content: space-evenly;
 }
 
-.emailButton, .emailButton2{
+.emailButton,
+.emailButton2 {
   height: 100px;
   width: 100px;
   background: url("https://imageog.flaticon.com/icons/png/512/281/281769.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF");
   background-size: cover;
   background-position: center;
   border-radius: 12px;
-
 }
 
-.linkedinButton, .linkedinButton2{
+.linkedinButton,
+.linkedinButton2 {
   height: 100px;
   width: 100px;
   background: url("data:image/png;base64,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");
@@ -353,17 +344,211 @@ float: left;
 
 
 
+/* project section */
+
+
+
+
+
+
+
+
+.projectSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.projectText {
+  position: relative;
+  font: bold 3.8vw sans-serif;
+  margin-top: 40%;
+
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.28s linear;
+}
+
+.project:hover .projectText {
+  visibility: visible;
+  opacity: 1;
+}
+
+.project {
+  width: 33%;
+  height: 0;
+  padding-bottom: 33.33%;
+  display: grid;
+  place-items: center;
+  color: white;
+  position: relative;
+}
+
+.project1::before {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url(https://pbs.twimg.com/profile_images/1102715404688871424/KVqLdBKx_400x400.png);
+  background-size: cover;
+  transition: filter 0.5s;
+}
+
+.project1:hover::before {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url(https://pbs.twimg.com/profile_images/1102715404688871424/KVqLdBKx_400x400.png);
+  background-size: cover;
+  filter: brightness(40%);
+}
+
+.project2::before {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url("JE_Icon_1.png");
+  background-size: cover;
+  transition: filter 0.5s;
+}
+
+.project2:hover::before {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url("JE_Icon_1.png");
+  background-size: cover;
+  filter: brightness(40%);
+}
+
+.project2 {
+  background: url("JE_Icon_1.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.project3::before {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url("pacificsurftrade.png");
+  background-size: cover;
+  transition: filter 0.5s;
+}
+
+.project3:hover::before {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url("pacificsurftrade.png");
+  background-size: cover;
+  filter: brightness(40%);
+}
+
+.project4::before {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url("charliee.png");
+  background-size: cover;
+  transition: filter 0.5s;
+}
+
+.project4:hover::before {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url("charliee.png");
+  background-size: cover;
+  filter: brightness(40%);
+}
+
+.project5::before {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url("https://www.guidestar.org/ViewEdoc.aspx?eDocId=5323319&approved=True");
+  background-size: cover;
+  transition: filter 0.5s;
+}
+
+.project5:hover::before {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url("https://www.guidestar.org/ViewEdoc.aspx?eDocId=5323319&approved=True");
+  background-size: cover;
+  filter: brightness(40%);
+}
+
+.project6::before {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url("https://s3-us-west-1.amazonaws.com/companies.comparably.com/102640/102640_logo_chrome-river-technologies.png?lastUpdate=Fri%20Jul%2026%202019%2017%3A42%3A31%20GMT+0000%20%28UTC%29");
+  background-size: cover;
+  transition: filter 0.5s;
+}
+
+.project6:hover::before {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url("https://s3-us-west-1.amazonaws.com/companies.comparably.com/102640/102640_logo_chrome-river-technologies.png?lastUpdate=Fri%20Jul%2026%202019%2017%3A42%3A31%20GMT+0000%20%28UTC%29");
+  background-size: cover;
+  filter: brightness(40%);
+}
+
+
+ 
+
+/* media queries */
+
+
 @media only screen and (max-width: 1400px) {
   .titleSection {
     width: 50%;
   }
 
-  
   .myImgSection {
     width: 50%;
   }
 }
-
 
 @media only screen and (max-width: 1200px) {
   .myImgSection {
@@ -372,9 +557,6 @@ float: left;
   }
 }
 
-
-
-
 @media only screen and (max-width: 500px) {
   .titleSection {
     width: 100%;
@@ -382,7 +564,6 @@ float: left;
     z-index: 1;
   }
 
-  
   .myImgSection {
     width: 100%;
     position: absolute;
@@ -392,127 +573,42 @@ float: left;
     min-height: 500px;
   }
 
-  .letters{
+  .letters {
     font-size: 18px;
   }
 
-  .ml3{
-width: 141px;
+  .ml3 {
+    width: 141px;
     /* display: inline-block; */
-    
+
     font-size: 20px;
     text-align: left;
     background: black;
     padding: 11px;
+    margin-top: 275px;
   }
+
+
+
+.splash-title-3-2{
+  margin-top: 180px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.projectSection{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly
-}
-
-
-
-
-
-.projectText{
-  position: relative;
-  font: bold 3.8vw sans-serif;
-  margin-top: 40%;
-
-
-  visibility: hidden;
-  opacity: 0;
-  transition: visibility 0s, opacity 0.28s linear;
-}
-
-.project:hover .projectText{
-  visibility: visible;
-  opacity: 1;
-
-}
 
 .project{
- width: 33%;
-height: 0;
-padding-bottom: 33.33%;
- display: grid;
- place-items: center;
- color: white;
- position: relative;
-
+  width: 50%;
+    padding-bottom: 50%;
 }
 
-
-.project1::before{
-  content: "";
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background-image: url(https://pbs.twimg.com/profile_images/1102715404688871424/KVqLdBKx_400x400.png);
-  background-size: cover;
-  transition: filter .5s;
+.projectSectionTitle {
+  color: white;
+  text-align: center;
+  position: relative;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  font-size: 4.5vw;
 }
 
-.project1:hover::before{
-  content: "";
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background-image: url(https://pbs.twimg.com/profile_images/1102715404688871424/KVqLdBKx_400x400.png);
-  background-size: cover;
-  filter: brightness(40%);
 }
 
 
@@ -526,202 +622,3 @@ padding-bottom: 33.33%;
 
 
 
-
-
-
-
-
-
-
-
-.project2::before{
-  content: "";
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background-image: url("JE_Icon_1.png");
-  background-size: cover;
-  transition: filter .5s;
-}
-
-.project2:hover::before{
-  content: "";
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background-image: url("JE_Icon_1.png");
-  background-size: cover;
-  filter: brightness(40%);
-}
-
-
-.project2{
-  background:url("JE_Icon_1.png");
-  background-size: cover;
-  background-position: center;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.project3::before{
-  content: "";
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background-image: url("pacificsurftrade.png");
-  background-size: cover;
-  transition: filter .5s;
-}
-
-.project3:hover::before{
-  content: "";
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background-image: url("pacificsurftrade.png");
-  background-size: cover;
-  filter: brightness(40%);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.project4::before{
-  content: "";
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background-image: url("charliee.png");
-  background-size: cover;
-  transition: filter .5s;
-}
-
-.project4:hover::before{
-  content: "";
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background-image: url("charliee.png");
-  background-size: cover;
-  filter: brightness(40%);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.project5::before{
-  content: "";
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background-image: url("https://www.guidestar.org/ViewEdoc.aspx?eDocId=5323319&approved=True");
-  background-size: cover;
-  transition: filter .5s;
-}
-
-.project5:hover::before{
-  content: "";
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background-image: url("https://www.guidestar.org/ViewEdoc.aspx?eDocId=5323319&approved=True");
-  background-size: cover;
-  filter: brightness(40%);
-}
-
-
-
-
-
-
-.project6::before{
-  content: "";
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background-image: url("https://s3-us-west-1.amazonaws.com/companies.comparably.com/102640/102640_logo_chrome-river-technologies.png?lastUpdate=Fri%20Jul%2026%202019%2017%3A42%3A31%20GMT+0000%20%28UTC%29");
-  background-size: cover;
-  transition: filter .5s;
-}
-
-.project6:hover::before{
-  content: "";
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background-image: url("https://s3-us-west-1.amazonaws.com/companies.comparably.com/102640/102640_logo_chrome-river-technologies.png?lastUpdate=Fri%20Jul%2026%202019%2017%3A42%3A31%20GMT+0000%20%28UTC%29");
-  background-size: cover;
-  filter: brightness(40%);
-}
- 

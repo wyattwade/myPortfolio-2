@@ -225,7 +225,7 @@ $(".connectButton2").click(() => {
   $(".splash-title-2-2").fadeOut()
   $(".connectButton2").fadeOut()
   $(".contactTitle").fadeOut()
-
+  $(".ml3").css("background", "none")
   
   setTimeout(() =>{
     $(".splash-title-3-2").fadeIn()
