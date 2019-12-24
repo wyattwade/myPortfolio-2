@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-size: 17px;
+    font-family: sans-serif;
+    line-height: 25px;
+}
+
+.titleImage{
+    height: 45vh;
+    width: 100vw;
+    background: url("https://cdn.pixabay.com/photo/2017/06/06/16/35/cyber-2377718_1280.jpg")
+}
+
+.articleContainer{
+    width: 56vw;
+    margin-top: 40px;
+    padding-left: 22vw;
+    padding-right: 22vw;
+}
+
+.articleTitle{
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 40px;
+}
+
+.articleImage{
+    max-height: 800px;
+    max-width: 100%;
+}
+
+code{
+    font-size: 10px;
+    background: lightgray;
+}
