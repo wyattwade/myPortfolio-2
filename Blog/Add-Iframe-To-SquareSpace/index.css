@@ -12,10 +12,10 @@ body {
 }
 
 .articleContainer{
-    width: 56vw;
+    width: 60vw;
     margin-top: 40px;
-    padding-left: 22vw;
-    padding-right: 22vw;
+    padding-left: 20vw;
+    padding-right: 20vw;
 }
 
 .articleTitle{
@@ -30,6 +30,10 @@ body {
 }
 
 code{
-    font-size: 10px;
-    background: lightgray;
+    font-size: 1.45vw;
+    background: rgb(235, 235, 235);
+}
+
+b{
+    font-size: 22px;
 }
