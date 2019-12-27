@@ -336,3 +336,57 @@ $(".squareSpaceIframeBlog").click(()=>{
   window.location.href = "https://elliottdevelopment.com/Blog/Add-Iframe-To-SquareSpace/index.html";
 })
 
+
+
+
+$(".navbarItem3,.navbarOverlayItem3").on('click', function(){
+  $(".navbarOverlay").css("display", "none")
+  $('html,body').animate({
+    scrollTop: $(".projectSectionTitle").offset().top - 150},
+    'slow');
+} ) 
+
+$(".navbarItem2, .navbarOverlayItem2").click(function() {
+  $(".navbarOverlay").css("display", "none")
+  $('html,body').animate({
+      scrollTop: $(".blogSectionTitle").offset().top - 120},
+      'slow');
+});
+
+$(".navbarItem1, .navbarOverlayItem1").click(function() {
+  $(".navbarOverlay").css("display", "none")
+  $('html,body').animate({
+      scrollTop: $(".landingSection").offset().top},
+      'slow');
+});
+
+
+$(".ml1").click(function() {
+  window.location.href = "https://elliottdevelopment.com";
+});
+
+
+
+
+// // $(".navbarOverlayItem2").click(function() {
+
+//   $('html,body').animate({
+//       scrollTop: $(".projectSectionTitle").offset().top - 150},
+//       'slow');
+// });
+
+// $(".navbarOverlayItem2").click(function() {
+//   $(".navbarOverlay").css("display", "none")
+
+//   $('html,body').animate({
+//       scrollTop: $(".blogSectionTitle").offset().top - 120},
+//       'slow');
+// });
+
+// $("").click(function() {
+//   $(".navbarOverlay").css("display", "none")
+
+//   $('html,body').animate({
+//       scrollTop: $(".projectSectionTitle").offset().top},
+//       'slow');
+// });

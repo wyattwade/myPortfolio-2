@@ -37,3 +37,26 @@ code{
 b{
     font-size: 22px;
 }
+
+.mySmallImg{
+    height: 180px;
+    width: 180px;
+    border-radius: 100px;
+}
+
+.articleBy{
+    position: relative;
+    bottom: 100px;
+    left: 200px;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    .articleContainer {
+        width: 90vw;
+        margin-top: 40px;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+}
