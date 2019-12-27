@@ -260,6 +260,11 @@ $(".connectButton2").click(() => {
 
 
 
+
+
+
+
+
 var navbarTriggered = false;
 
 $(window).scroll(function () {
@@ -309,17 +314,6 @@ $(window).scroll(function () {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 $(".fa-bars").click(() => {
   $(".navbarOverlay").css("display", "block")
 })
@@ -328,3 +322,17 @@ $(".fa-times").click(() => {
   $(".navbarOverlay").css("display", "none")
 })
   // expand navbar so its like half the page
+
+
+
+
+
+
+
+
+
+
+$(".squareSpaceIframeBlog").click(()=>{
+  window.location.href = "https://elliottdevelopment.com/Blog/Add-Iframe-To-SquareSpace/index.html";
+})
+

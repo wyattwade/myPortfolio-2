@@ -71,6 +71,8 @@ body {
   font-size: 18px;
   top: 25px;
   z-index: 2000;
+  cursor: pointer;
+
 }
 
 .navbarItem1{
@@ -165,6 +167,7 @@ body {
 
 .ml1 {
   left: 15%;
+  cursor: pointer;
 }
 
 .ml3 {
@@ -634,6 +637,7 @@ canvas {
   display: flex;
   flex-wrap: nowrap;
   margin-bottom: 15vh;
+  cursor: pointer;
 }
 
 .blogItemImg{
@@ -683,6 +687,13 @@ canvas {
     background-image: url(42069060_488307898313130_696445133495109991_n_copy.jpg);
     /* background-image: url(IMG_0212.JPG); */
   }
+  .blogItemTitle{
+    font-size: 2.8vw;
+  }
+
+  .blogItemDescription{
+    font-size: 1.8vw;
+  }
 }
 
 @media only screen and (max-width: 680px) {
@@ -699,6 +710,7 @@ canvas {
     visibility: visible;
     font-size: 22px;
   }
+
 }
 
 @media only screen and (max-width: 500px) {
@@ -776,7 +788,7 @@ canvas {
 }
 
 .blogItemText{
-  top: 6.2vw;
+  top: 5.8vw;
 }
 
 .blogItemTitle{
