@@ -5,9 +5,88 @@
 
 body {
   background: black;
+  color: white;
+}
+
+.fa-times{
+  position: fixed;
+  right: 40px;
+  top: 20px;
+  font-size: 28px
+}
+
+.fa-times:hover{
+  cursor: pointer;
+}
+
+.navbarOverlay{
+  display: none;
+  height: 100vh;
+  width: 100vw;
+  background: black;
+    position: fixed;
+    z-index: 10000;
+}
+
+.navbarOverlayItem{
+  width: 100vw;
+  text-align: center;
+  margin: auto;
+  margin-top: 80px;
+  font-size: 28px;
+}
+
+.navbarOverlayItem:hover{
+  cursor: pointer;
+}
+
+.navbarOverlayItem1{
+  margin-top: 180px;
+}
+
+.navbar{
+  width: 100vw;
+  height: 64px;
+  background: black;
+  position: fixed;
+  z-index: 2000;
+  visibility: hidden;
+}
+
+.fa-bars{
+  position: fixed;
+  font-size: 25px;
+  top: 20px;
+  right: 40px;
+  z-index: 2000;
+  visibility: hidden;
+}
+
+.fa-bars:hover{
+  cursor: pointer;
+}
+
+.navbarItem{
+  position: fixed;
+  font-size: 18px;
+  top: 25px;
+  z-index: 2000;
+}
+
+.navbarItem1{
+  right: 50px;
+}
+
+.navbarItem2{
+  right: 138px;
+}
+
+.navbarItem3{
+  right: 250px;
 }
 
 .landingSection {
+  margin-top: 20vh;
   height: 100vh;
   width: 100vw;
   background: #000000;
@@ -43,8 +122,10 @@ body {
 }
 
 .ml1 {
+  position: fixed !important;
   font-weight: 900;
-  font-size: 3.5em;
+  font-size: 25px;
+  z-index: 500000;
 }
 
 .ml1 .letter {
@@ -79,12 +160,10 @@ body {
 
 .letters {
   color: white;
-  font-size: 5vw;
+  font-size: 25px;
 }
 
 .ml1 {
-  position: relative;
-  top: 15%;
   left: 15%;
 }
 
@@ -110,6 +189,15 @@ body {
   font-size: 4vw;
 }
 
+.blogSectionTitle{
+  color: white;
+  text-align: center;
+  position: relative;
+  margin-top: 12vh;
+  margin-bottom: 12vh;
+  font-size: 4vw;
+}
+
 .contactSectionTitle {
   color: white;
   text-align: center;
@@ -125,7 +213,7 @@ body {
   height: 6em;
   margin-top: -3em;
   width: 100vw;
-  z-index: 1000000;
+  z-index: 1000;
 }
 
 .splash-title {
@@ -167,7 +255,7 @@ canvas {
   background-size: cover;
   background-position: 50% 50%;
   position: absolute;
-  z-index: 5000;
+  z-index: 5;
 } /* ---- stats.js ---- */
 .count-particles {
   background: #00002200;
@@ -220,14 +308,14 @@ canvas {
   max-height: 66%;
   min-height: 15%;
   /* height: 200px; */
-  z-index: 20000;
+  z-index: 20;
   position: absolute;
   bottom: -1;
 }
 
 .ml1 {
   font-weight: 900;
-  font-size: 3.5em;
+  font-size: 25px;
 }
 
 .ml1 .letter {
@@ -262,12 +350,11 @@ canvas {
 
 .letters {
   color: white;
-  font-size: 2vw;
+  font-size: 25px;
 }
 
 .ml1 {
-  position: relative;
-  top: 20px;
+  top: 15px;
   left: 20px;
 }
 
@@ -278,7 +365,7 @@ canvas {
   margin: auto;
   background: orange;
   position: relative;
-  z-index: 10000001;
+  z-index: 10000;
   border-radius: 30px;
   margin-top: 42px;
 }
@@ -536,6 +623,47 @@ canvas {
 
 
  
+.blogSection{
+  min-height: 20vh;
+  width: 100vw;
+
+}
+
+
+.blogItem{
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 15vh;
+}
+
+.blogItemImg{
+  height: 25vw;
+  width: 25vw;
+  margin-left: 5vw;
+  border-radius: 3.2vw;
+}
+
+.blogItemText {
+  position: relative;
+  height: 9vw;
+  left: 7vw;
+  width: 58vw;
+  position: relative;
+  top: 7vw
+}
+
+
+.blogItemTitle{
+  font-size: 2vw;
+}
+
+.blogItemDescription{
+  margin-top: 2vh;
+  font-size: 1.4vw;
+}
+
+
+
 
 /* media queries */
 
@@ -557,7 +685,30 @@ canvas {
   }
 }
 
+@media only screen and (max-width: 680px) {
+
+  .navbar{
+    height: 58px;
+  }
+
+  .navbarItem{
+    display: none;
+  }
+
+  .fa-bars{
+    visibility: visible;
+    font-size: 22px;
+  }
+}
+
 @media only screen and (max-width: 500px) {
+
+
+  .fa-bars{
+    visibility: visible;
+    top: 18px;
+  }
+
   .titleSection {
     width: 100%;
     position: absolute;
@@ -614,6 +765,32 @@ canvas {
   margin-bottom: 10vh;
   font-size: 4.5vw;
 }
+
+.blogSectionTitle{
+  color: white;
+  text-align: center;
+  position: relative;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+  font-size: 4vw;
+}
+
+.blogItemText{
+  top: 6.2vw;
+}
+
+.blogItemTitle{
+  font-size: 2.8vw;
+}
+
+.blogItemDescription{
+  margin-top: 1vh;
+  font-size: 1.8vw;
+}
+
+
+
+
 
 }
 

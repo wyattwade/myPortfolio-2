@@ -117,16 +117,16 @@ particlesJS("particles-js",{
     },
     "retina_detect": true
   });
-  
-  
 
 
 
 
 
-  
-  
-  
+
+
+
+
+
 
 
 
@@ -150,12 +150,12 @@ particlesJS("particles-js",{
   //   duration: 1000,
   //   offset: "-=875",
   //   delay: (el, i, l) => 40 * (l - i)
-  // }); 
+  // });
 
   setTimeout(function() {
     $(".myImgSection").fadeIn(400);
   }, 600);
-  
+
 
 setTimeout(function() {
   $(".ml3").fadeIn(800);
@@ -174,13 +174,13 @@ setTimeout(function() {
 
 
 
-  
-  
-  
+
+
+
   // Wrap every letter in a span
   var textWrapper = document.querySelector('.ml1 .letters');
   textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-  
+
   anime.timeline({loop: false})
     .add({
       targets: '.ml1 .letter',
@@ -199,8 +199,8 @@ setTimeout(function() {
       offset: '-=875',
       delay: (el, i, l) => 120 * (l - i)
     })
-  
-  
+
+
 
 
 $(".connectButton").click(() => {
@@ -208,7 +208,7 @@ $(".connectButton").click(() => {
   $(".splash-title-2").fadeOut()
   $(".connectButton").fadeOut()
 
-  
+
   setTimeout(() =>{
     $(".splash-title-3").fadeIn()
     $(".contactButtonContainer").fadeIn()
@@ -226,7 +226,7 @@ $(".connectButton2").click(() => {
   $(".connectButton2").fadeOut()
   $(".contactTitle").fadeOut()
   $(".ml3").css("background", "none")
-  
+
   setTimeout(() =>{
     $(".splash-title-3-2").fadeIn()
     $(".contactButtonContainer2").fadeIn()
@@ -260,23 +260,71 @@ $(".connectButton2").click(() => {
 
 
 
+var navbarTriggered = false;
 
 $(window).scroll(function () {
+
+
   var topDivHeight = $(".landingSection").height();
   var viewPortSize = $(window).height();
-  
-  var triggerAt = 180;
-  var triggerHeight = (topDivHeight - viewPortSize) + triggerAt;
 
-  if ($(window).scrollTop() >= triggerHeight) {
-    console.log("trigger")
-      $('.project1').css('visibility', 'visible').hide().fadeIn(400);
-      $('.project2').css('visibility', 'visible').hide().fadeIn(800);
-      $('.project3').css('visibility', 'visible').hide().fadeIn(1200);
-      $('.project4').css('visibility', 'visible').hide().fadeIn(1600);
-      $('.project5').css('visibility', 'visible').hide().fadeIn(2000);
-      $('.project6').css('visibility', 'visible').hide().fadeIn(2400);
+  //navbar
+  var navbarTriggerAt = 100;
 
-      $(this).off('scroll');
+  if (($(window).scrollTop() >= navbarTriggerAt) && navbarTriggered == false) {
+    navbarTriggered = true;
+      $('.navbar').css('visibility', 'visible').hide().fadeIn(400)
+      
+
   }
+
+
+    if (($(window).scrollTop() <= navbarTriggerAt)) {
+      navbarTriggered = false;
+        $('.navbar').fadeOut(400)
+    }
+  
+
+
+
+
+
+
+
+  //projects
+  // var projectFirstRowTriggerHeight = 400;
+  // var projectFirstRowTriggerHeight = (topDivHeight - viewPortSize) + ProjectFirstRowTriggerAt;
+  // var firstRowTriggered = false;
+
+  // if ($(window).scrollTop() >= projectFirstRowTriggerHeight && firstRowTriggered == false) {
+  //   $('.project1').css('visibility', 'visible').hide().fadeIn(1000);
+  //     // $('.project2').css('visibility', 'visible').hide().fadeIn(400);
+  //     // $('.project3').css('visibility', 'visible').hide().fadeIn(400);
+  //     // $('.project4').css('visibility', 'visible').hide().fadeIn(400);
+  //     // $('.project5').css('visibility', 'visible').hide().fadeIn(400);
+  //     // $('.project6').css('visibility', 'visible').hide().fadeIn(400);
+  // }
+
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(".fa-bars").click(() => {
+  $(".navbarOverlay").css("display", "block")
+})
+
+$(".fa-times").click(() => {
+  $(".navbarOverlay").css("display", "none")
+})
+  // expand navbar so its like half the page
