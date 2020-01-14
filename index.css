@@ -40,8 +40,8 @@ body {
   cursor: pointer;
 }
 
-.navbarOverlayItem1{
-  margin-top: 180px;
+.navbarOverlayItem3{
+  margin-top: 120px;
 }
 
 .navbar{
@@ -307,12 +307,12 @@ canvas {
 }
 .myImg {
   width: 100vw;
-  max-height: 66%;
-  min-height: 15%;
+  max-height: 32%;
+  min-height: 10%;
   /* height: 200px; */
   z-index: 20;
   position: absolute;
-  bottom: -1;
+  bottom: -1px;
 }
 
 .ml1 {
@@ -787,16 +787,16 @@ canvas {
 }
 
 .blogItemText{
-  top: 5.8vw;
+  top: .5vw;
 }
 
 .blogItemTitle{
-  font-size: 2.8vw;
+  font-size: 4.2vw;
 }
 
 .blogItemDescription{
   margin-top: 1vh;
-  font-size: 1.8vw;
+  font-size: 2.5vw;
 }
 
 
