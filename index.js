@@ -175,6 +175,20 @@ setTimeout(function() {
 
 
 
+// move mountains
+
+
+
+$(window).scroll(function() {
+    var scrollTop =  $(window).scrollTop();
+
+    if (scrollTop >= 0 && scrollTop < 400) {
+      $(".myImg").css({bottom: -1 - (scrollTop * 1.75)});      
+    } 
+});
+
+
+
 
 
   // Wrap every letter in a span
