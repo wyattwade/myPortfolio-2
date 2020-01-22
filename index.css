@@ -186,14 +186,20 @@ body {
   color: white;
   text-align: center;
   position: relative;
-  margin-top: 20vh;
-  margin-bottom: 20vh;
+
   font-size: 4vw;
   z-index: 2;
 
   position: absolute;
     margin: auto;
-    margin-top: 100vh;
+
+
+
+    top: 120vh;
+    margin: auto;
+    width: 88vw;
+    left: 5vw;
+    margin: auto;
 }
 
 .blogSectionTitle{
@@ -452,6 +458,9 @@ canvas {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  position: absolute;
+  z-index: 5;
+  top: 152vh;
 }
 
 .projectText {
@@ -777,12 +786,10 @@ canvas {
 .projectSectionTitle {
   color: white;
   text-align: center;
+  font-size: 4vw;
+  z-index: 2;
   position: absolute;
-  margin-bottom: 40vh;
-  font-size: 4.5vw;
-
-  position: relative;
-    margin-bottom: 100px;
+  margin: auto;
 }
 
 .blogSectionTitle{
